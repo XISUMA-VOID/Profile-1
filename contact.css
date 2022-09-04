@@ -1,0 +1,97 @@
+body{
+    background-image: linear-gradient(to bottom right, #014871, #D7EDE2);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 669px;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: rgb(0, 57, 110);
+    height: 50px;
+    margin: -8px -8px 0 -8px;
+    overflow: hidden;
+    width: auto;
+}
+
+h2{
+    display: inline-block;
+    font-family: cursive;
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 0 0 0 0;
+    padding: 6px 0 0 8px;
+    text-indent: 8px;
+    word-spacing: -2px;
+}
+
+ header ul{
+    bottom: 5px;
+    display: inline-block;
+    padding: 0 0 0 0;
+    position: relative;
+}
+
+header ul li{
+    background-color: #ddd;
+    border: 3px solid aquamarine;
+    border-radius: 10px;
+    display: inline-block;
+    height: 20px;
+    margin: 0 0 4px 10px;
+    width: 80px;
+}
+
+header ul li:hover{
+    border: 4px dashed greenyellow;
+    background-color: cyan;
+    transition-duration: 0.7s;
+}
+
+header ul li a :hover{
+    color: rgb(52, 255, 16);
+}
+
+a{
+    color: black;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+
+.home{
+    margin: 0 0 0 720px;
+    padding: 0 0 0 15px;
+    width: 60px;
+}
+
+.skills{
+    padding: 0 0 0 13px;
+    width: 58px;
+}
+.certs{
+    padding: 0 0 0 3px;
+    width: 105px;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+div{
+    position: relative;
+    left: 240px;
+    top: 100px;
+}
+
+div ul{
+    line-height: 28px;
+}
+
+div ul li a{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
